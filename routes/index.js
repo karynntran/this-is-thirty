@@ -6,4 +6,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET bucketlisttest list */
+router.get('/bucketlisttest', function(req,res){
+	var db = req.db;
+	var collection = db.get('bucketlisttest');
+	collection.find({},{},function(e,docs){
+		res.render('bucketlisttest', {
+			'bucketlisttest' : docs
+		});
+	});
+});
+
 module.exports = router;
