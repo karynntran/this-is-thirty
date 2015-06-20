@@ -1,4 +1,5 @@
 var express = require('express');
+var stylus = require('stylus');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -24,12 +25,23 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+app.use(require('stylus').middleware({
+  src: __dirname + "/public",
+  compress: true
+}));
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function(req,res,next){
   req.db = db;
   next();
 });
+
+app.use(stylus.middleware({
+  src: __dirname + '/views',
+  dest: __dirname + '/public'
+}));
 
 app.use('/', routes);
 app.use('/users', users);
@@ -64,6 +76,8 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+
 
 
 module.exports = app;
