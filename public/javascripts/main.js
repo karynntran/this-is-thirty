@@ -1,13 +1,24 @@
+var months = [
+	"january", 
+	"february",
+	"march",
+	"april",
+	"may",
+	"june",
+	"july",
+	"august",
+	"september",
+	"october",
+	"november",
+	"december"
+]
+
 document.addEventListener("DOMContentLoaded", function(event) {
-    console.log("tell me this is working!");
 
     var marker = document.getElementById('marker');
-    var january = document.getElementById('januaryNav')
-    var januaryWidth = january.offsetWidth/2 - 20;
-    var firstPosition = january.offsetLeft;
-    var both = parseFloat(januaryWidth) + parseFloat(firstPosition)
+    var month = document.getElementById('mayNav');
+    var monthWidth = month.offsetWidth/4;
+    var monthLeftPosition = month.offsetLeft;
 
-    console.log(both)
-
-    marker.style.left=both + 'px';
+    marker.style.left=parseFloat(monthLeftPosition) + parseFloat(monthWidth) + 'px';
 });
