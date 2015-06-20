@@ -15,10 +15,16 @@ var months = [
 
 document.addEventListener("DOMContentLoaded", function(event) {
 
-    var marker = document.getElementById('marker');
-    var month = document.getElementById('mayNav');
-    var monthWidth = month.offsetWidth/4;
-    var monthLeftPosition = month.offsetLeft;
+	for (var i=0; i < months.length; i++){
+		var month = document.getElementById(months[i] + 'Nav');
+		console.log(month);
+		month.addEventListener("click", function(){
+			var marker = document.getElementById('marker');
+			var monthWidth = this.offsetWidth/4;
+			var monthLeftPosition = this.offsetLeft;
 
-    marker.style.left=parseFloat(monthLeftPosition) + parseFloat(monthWidth) + 'px';
+			marker.style.left=parseFloat(monthLeftPosition) + parseFloat(monthWidth) + 'px';
+		});
+	}
+
 });
