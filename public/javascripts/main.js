@@ -37,9 +37,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	// 	})(eachMonth);
 	// }
 
-	for (var i = 0; i < months.length; i++){
-		var month = document.getElementById(months[i].month + 'Nav');
-		var shortDescription = months[i].shortDescription;
+	for (var i = 0; i < navigation.length; i++){
+		var month = document.getElementById(navigation[i].month + 'Nav');
+		var shortDescription = navigation[i].shortDescription;
+		
+		console.log(i);
+
+
+		if (i > 6 ) {
+			month.setAttribute("style",  "color: lightgray; font-weight: normal");
+
+		}
+
 
 		month.onclick = (function(shortDescription){
 			return function(){
