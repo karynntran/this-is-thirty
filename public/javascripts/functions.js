@@ -7,4 +7,3 @@ defaultPosition = function () {
 	marker.style.left=parseFloat(monthLeftPosition) + parseFloat(monthWidth) + 'px';
 };
 
-// modules.exports = new defaultPosition();

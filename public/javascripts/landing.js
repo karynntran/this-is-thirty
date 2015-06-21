@@ -53,21 +53,6 @@ var navigation = [
   	}
 ]
 
-// var months = [
-// 	"january", 
-// 	"february",
-// 	"march",
-// 	"april",
-// 	"may",
-// 	"june",
-// 	"july",
-// 	"august",
-// 	"september",
-// 	"october",
-// 	"november",
-// 	"december"
-// ];
-
 
 defaultPosition = function () {
     var defaultMonth = document.getElementById('januaryNav');
