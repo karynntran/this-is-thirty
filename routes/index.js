@@ -3,11 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'this is thirty' });
+  res.render('index', { title: 'this is thirty', scripts: '../javascripts/main.js'});
 });
 
 router.get('/monthlyphotos', function(req, res, next) {
-  res.render('monthlyphotos');
+  res.render('monthlyphotos', {scripts: '../javascripts/monthlyphotos.js'});
 });
 
 /* GET bucketlisttest list */
