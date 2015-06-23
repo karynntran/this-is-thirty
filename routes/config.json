@@ -8,7 +8,7 @@
 	},
 	"months" : [
 		{
-	    "month": "january",
+	    "month": "JANUARY",
 	    "monthImages": 
 	    	[
 	    		{"monthImage":"01janBirthday.jpg", "description": "My 30th Birthday"},
@@ -16,7 +16,7 @@
 	    	]
 	  	},
 		{
-		    "month":"february",
+		    "month":"FEBRUARY",
 	    	"monthImages": 
 		    	[
 		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "description" : "Katrina's Baby Shower"},
@@ -28,7 +28,7 @@
 		    	]
 	  	},
 		{
-		    "month":"march",
+		    "month":"MARCH",
 	    	"monthImages": 
 		    	[
 			    	{"monthImage" : "03marAlexPamie.jpg", "description" : "Description"},

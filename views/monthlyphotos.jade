@@ -19,8 +19,9 @@ block content
 		div.marker-container
 			div#marker
 	div.main-content
-		each val, index in months
-			p= val.month
-			each imageSet, index in val.monthImages
-				img.monthly-photos(src= '../images/months/' + val.monthImages[index].monthImage)
+		div.main-images
+			each val, index in months
+				p.month-title= val.month
+				each imageSet, index in val.monthImages
+					img.monthly-photos(src= '../images/months/' + val.monthImages[index].monthImage)
 
