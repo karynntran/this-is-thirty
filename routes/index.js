@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
-var file = __dirname + '/object.json';
+var file = __dirname + '/config.json';
 fs.readFile(file, 'utf8', function (err, data) {
   if (err) {
     console.log('Error: ' + err);
@@ -16,8 +16,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/monthlyphotos', function(req, res, next) {
-  res.render('monthlyphotos', { script: jsonData.script['monthlyPhotos'],months: jsonData.months });
-  // res.render('monthlyphotos', {jsonData: '../javascripts/object.js'});
+  res.render('monthlyphotos', { 
+  	script: jsonData.script['monthlyPhotos'],
+  	months: jsonData.months
+  });
 });
 
 /* GET bucketlisttest list */

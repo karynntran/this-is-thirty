@@ -1,0 +1,43 @@
+{
+	"script": {
+		"index":"../javascripts/main.js",
+		"monthlyPhotos":"../javascripts/monthlyphotos.js"
+	},
+	"navigation": {
+		"month":"home"
+	},
+	"months" : [
+		{
+	    "month": "january",
+	    "monthImages": 
+	    	[
+	    		{"monthImage":"01janBirthday.jpg", "description": "My 30th Birthday"},
+	    		{"monthImage":"01janBirthday2.jpg", "description": "More Birthday"}
+	    	]
+	  	},
+		{
+		    "month":"february",
+	    	"monthImages": 
+		    	[
+		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "description" : "Katrina's Baby Shower"},
+		    		{"monthImage" : "02febLunarNewYear.jpg", "description" : "Lunar New Year"},
+		    		{"monthImage" : "02febMauBabyShower.jpg", "description":"Mau's Baby Shower"},
+		    		{"monthImage" : "02febStartTD.jpg", "description" : "Start a New Job"},
+		    		{"monthImage" : "02febValentines.jpg", "description" : "Valentine's Day"},
+		    		{"monthImage" : "02febValentines2.jpg", "description" : "Valentine's Day"}
+		    	]
+	  	},
+		{
+		    "month":"march",
+	    	"monthImages": 
+		    	[
+			    	{"monthImage" : "03marAlexPamie.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marBensBirthday.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marBensBirthday2.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marGalTech.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marLearningNode.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marNicoBorn.jpg", "description" : "Description"},
+			    	{"monthImage" : "03marStPete.jpg", "description" : "Description"}
+		    	]
+	  	}
+]}
