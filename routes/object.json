@@ -1,4 +1,8 @@
 {
+	"script": {
+		"index":"../javascripts/main.js",
+		"monthlyPhotos":"../javascripts/monthlyphotos.js"
+	},
 	"navigation": {
 		"month":"home"
 	},

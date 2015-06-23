@@ -8,16 +8,15 @@ fs.readFile(file, 'utf8', function (err, data) {
     return;
   }
   jsonData = JSON.parse(data);
-  console.dir(data);
 });
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'this is thirty', scripts: '../javascripts/main.js'});
+  res.render('index', { title: 'this is thirty', script: jsonData.script['index']});
 });
 
 router.get('/monthlyphotos', function(req, res, next) {
-  res.render('monthlyphotos', {scripts: '../javascripts/monthlyphotos.js'});
+  res.render('monthlyphotos', { script: jsonData.script['monthlyPhotos'],months: jsonData.months });
   // res.render('monthlyphotos', {jsonData: '../javascripts/object.js'});
 });
 
