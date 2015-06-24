@@ -8,36 +8,36 @@
 	},
 	"months" : [
 		{
-	    "month": "JANUARY",
+	    "month": "january",
 	    "monthImages": 
 	    	[
-	    		{"monthImage":"01janBirthday.jpg", "description": "My 30th Birthday"},
-	    		{"monthImage":"01janBirthday2.jpg", "description": "More Birthday"}
+	    		{"monthImage":"01janBirthday.jpg", "imageDescription": "My 30th Birthday"},
+	    		{"monthImage":"01janBirthday2.jpg", "imageDescription": "More Birthday"}
 	    	]
 	  	},
 		{
-		    "month":"FEBRUARY",
+		    "month":"february",
 	    	"monthImages": 
 		    	[
-		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "description" : "Katrina's Baby Shower"},
-		    		{"monthImage" : "02febLunarNewYear.jpg", "description" : "Lunar New Year"},
-		    		{"monthImage" : "02febMauBabyShower.jpg", "description":"Mau's Baby Shower"},
-		    		{"monthImage" : "02febStartTD.jpg", "description" : "Start a New Job"},
-		    		{"monthImage" : "02febValentines.jpg", "description" : "Valentine's Day"},
-		    		{"monthImage" : "02febValentines2.jpg", "description" : "Valentine's Day"}
+		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "imageDescription" : "Katrina's Baby Shower"},
+		    		{"monthImage" : "02febLunarNewYear.jpg", "imageDescription" : "Lunar New Year"},
+		    		{"monthImage" : "02febMauBabyShower.jpg", "imageDescription":"Mau's Baby Shower"},
+		    		{"monthImage" : "02febStartTD.jpg", "imageDescription" : "Start a New Job"},
+		    		{"monthImage" : "02febValentines.jpg", "imageDescription" : "Valentine's Day"},
+		    		{"monthImage" : "02febValentines2.jpg", "imageDescription" : "Valentine's Day"}
 		    	]
 	  	},
 		{
-		    "month":"MARCH",
+		    "month":"march",
 	    	"monthImages": 
 		    	[
-			    	{"monthImage" : "03marAlexPamie.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marBensBirthday.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marBensBirthday2.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marGalTech.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marLearningNode.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marNicoBorn.jpg", "description" : "Description"},
-			    	{"monthImage" : "03marStPete.jpg", "description" : "Description"}
+			    	{"monthImage" : "03marAlexPamie.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marBensBirthday.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marBensBirthday2.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marGalTech.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marLearningNode.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marNicoBorn.jpg", "imageDescription" : "Description"},
+			    	{"monthImage" : "03marStPete.jpg", "imageDescription" : "Description"}
 		    	]
 	  	}
 ]}

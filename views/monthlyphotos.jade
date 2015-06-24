@@ -23,5 +23,10 @@ block content
 			each val, index in months
 				p.month-title= val.month
 				each imageSet, index in val.monthImages
-					img.monthly-photos(src= '../images/months/' + val.monthImages[index].monthImage)
+					div.polaroid-container
+						img.monthly-photos(src= '../images/months/' + val.monthImages[index].monthImage)
+						div.description 
+							p= val.monthImages[index].imageDescription
+
+
 
