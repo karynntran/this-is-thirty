@@ -22,6 +22,11 @@ router.get('/monthlyphotos', function(req, res, next) {
   });
 });
 
+router.get('/jsonData', function(req, res){
+  res.send(jsonData);
+});
+
+
 /* GET bucketlisttest list */
 router.get('/bucketlisttest', function(req,res){
 	var db = req.db;

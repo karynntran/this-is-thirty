@@ -11,33 +11,71 @@
 	    "month": "january",
 	    "monthImages": 
 	    	[
-	    		{"monthImage":"01janBirthday.jpg", "imageDescription": "My 30th Birthday"},
-	    		{"monthImage":"01janBirthday2.jpg", "imageDescription": "More Birthday"}
+	    		{"monthImage":"01janNewYearDay.jpg", "imageDescription": "New Years Day in Boston with old friends"},
+	    		{"monthImage":"01jannewYearWithBU.jpg", "imageDescription": "Beginning the New Year with BU Friends"},
+	    		{"monthImage":"01janNYTechMeetUp.jpg", "imageDescription": "First time attending the NYC Tech MeetUp"},
+	    		{"monthImage":"01janOregonTrail.jpg", "imageDescription": "After 20 years, I beat Oregon Trail!"},
+	    		{"monthImage":"01janBirthday.jpg", "imageDescription": "My surprise 30th birthday at Hill & Dale"},
+	    		{"monthImage":"01janBirthday2.jpg", "imageDescription": "Family birthday brunch at The Brooklyn Star"}
 	    	]
 	  	},
 		{
 		    "month":"february",
 	    	"monthImages": 
 		    	[
-		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "imageDescription" : "Katrina's Baby Shower"},
-		    		{"monthImage" : "02febLunarNewYear.jpg", "imageDescription" : "Lunar New Year"},
-		    		{"monthImage" : "02febMauBabyShower.jpg", "imageDescription":"Mau's Baby Shower"},
-		    		{"monthImage" : "02febStartTD.jpg", "imageDescription" : "Start a New Job"},
-		    		{"monthImage" : "02febValentines.jpg", "imageDescription" : "Valentine's Day"},
-		    		{"monthImage" : "02febValentines2.jpg", "imageDescription" : "Valentine's Day"}
+		    		{"monthImage" : "02febKatrinaBabyShower.jpg", "imageDescription" : "My sister Katrina's baby shower"},
+		    		{"monthImage" : "02febLunarNewYear.jpg", "imageDescription" : "Lunar New Year Celebration with the Trans"},
+		    		{"monthImage" : "02febMauBabyShower.jpg", "imageDescription":"Mauzy's Baby Shower"},
+		    		{"monthImage" : "02febStartTD.jpg", "imageDescription" : "I started my first web developer job!"},
+		    		{"monthImage" : "02febValentines.jpg", "imageDescription" : "Antiquing in Cold Spring"},
+		    		{"monthImage" : "02febValentines2.jpg", "imageDescription" : "Valentine's Day flowers from the hubby"}
 		    	]
 	  	},
 		{
 		    "month":"march",
 	    	"monthImages": 
 		    	[
-			    	{"monthImage" : "03marAlexPamie.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marBensBirthday.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marBensBirthday2.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marGalTech.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marLearningNode.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marNicoBorn.jpg", "imageDescription" : "Description"},
-			    	{"monthImage" : "03marStPete.jpg", "imageDescription" : "Description"}
+			    	{"monthImage" : "03marAlexPamie.jpg", "imageDescription" : "Welcoming Alex & Pamie to the 30 Club"},
+			    	{"monthImage" : "03marBensBirthday.jpg", "imageDescription" : "The Knicks wish Ben a Happy 30th"},
+			    	{"monthImage" : "03marBensBirthday2.jpg", "imageDescription" : "Birthday doughnuts for the birthday hubby!"},
+			    	{"monthImage" : "03marNicoBorn.jpg", "imageDescription" : "My nephew Nicolas Chase is born and shares Ben's birthday!"},
+			    	{"monthImage" : "03marGalTech.jpg", "imageDescription" : "Our inaugural GALTech event at General Assembly"},
+			    	{"monthImage" : "03marLearningNode.jpg", "imageDescription" : "Weekend workshop learning Node.js"},
+			    	{"monthImage" : "03marStPete.jpg", "imageDescription" : "Weekend getaway at St.Pete in Florida"},
+			    	{"monthImage" : "03marTheClanging.jpg", "imageDescription" : "Haveeee you met Ted Mosby?"}
+		    	]
+	  	},
+		{
+		    "month":"april",
+	    	"monthImages": 
+		    	[
+			    	{"monthImage" : "04aprAnniversary.jpg", "imageDescription" : "Our one year wedding anniversary!"},
+			    	{"monthImage" : "04aprEaster.jpg", "imageDescription" : "Easter at the Hernandezes"}
+		    	]
+	  	},
+		{
+		    "month":"may",
+	    	"monthImages": 
+		    	[
+			    	{"monthImage" : "05mayCincodeMayo.jpg", "imageDescription" : "Margaritas with my fellow TDA apprentices"},
+			    	{"monthImage" : "05mayJapan.jpg", "imageDescription" : "Visiting Japan"},
+			    	{"monthImage" : "05mayJapan2.jpg", "imageDescription" : "Japan's bamboo garden"},
+			    	{"monthImage" : "05mayMothersDay.jpg", "imageDescription" : "Mother's Day in matching outfits"},
+			    	{"monthImage" : "05maySakura.jpg", "imageDescription" : "Brooklyn Botanical Sakura Festival"},
+			    	{"monthImage" : "05mayTiffBachelorette.jpg", "imageDescription" : "Celebrating Tiff's Bachelorette"}
+		    	]
+	  	},
+		{
+		    "month":"june",
+	    	"monthImages": 
+		    	[
+			    	{"monthImage" : "06junNewApartment.jpg", "imageDescription" : "Moved into our second NYC apartment"},
+			    	{"monthImage" : "06junDashboard.jpg", "imageDescription" : "Meeting Chris Carrabba"},
+			    	{"monthImage" : "06junDashboard2.jpg", "imageDescription" : "Rocking out at the Dashboard Confessional Concert"},
+			    	{"monthImage" : "06junJenBirthday.jpg", "imageDescription" : "Welcoming Jen into the 30 Club!"},
+			    	{"monthImage" : "06junTiffBridalShower.jpg", "imageDescription" : "BU girls at Tiff's Bridal Shower"},
+			    	{"monthImage" : "06junTiffBridalShower2.jpg", "imageDescription" : "Tiff's Harry Potter Bridal Shower"},
+			    	{"monthImage" : "06junWinnieBridalShower.jpg", "imageDescription" : "Winnie's Dim Sum Bridal Shower"}
 		    	]
 	  	}
 ]}
